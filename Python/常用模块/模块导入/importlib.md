@@ -4,13 +4,15 @@
 
 # 属性方法
 
-| 属性                                        | 说明                                                         |
-| ------------------------------------------- | ------------------------------------------------------------ |
-| importlib.import_module(name, package=None) | 字符串的形式动态导入模块,当name为.开头的相对导入字符串,package必须存在 |
+| 属性                             | 说明                                                         |
+| -------------------------------- | ------------------------------------------------------------ |
+| import_module(name,package=None) | 字符串的形式动态导入模块,当name为.开头的相对导入字符串,package必须存在 |
 
 # 源码分析
 
-* 定义: django.utils.module_loading
+## 声明位置
+
+> django.utils.module_loading
 
 ```python
 # 用于导入点连接的导入字符串,例如django.contrib.sessions.middleware.SessionMiddleware
@@ -41,7 +43,9 @@ def import_string(dotted_path):
         six.reraise(ImportError, ImportError(msg), sys.exc_info()[2])
 ```
 
-* 使用: django.core.handlers.base
+## 调用位置
+
+> django.core.handlers.base
 
 ```python
 class BaseHandler(object):
@@ -221,3 +225,6 @@ autodiscovery_modules(__name__, __file__)
 autodiscovery = partial(autodiscovery_modules,__name__, __file__)
 ```
 
+# 实战总结
+
+* 模块和包的自动导入常常会配合元类来实现自动注册功能,如上模块化Django应用的模型后如果不希望每次手动导入分离的模型模块可添加如上代码实现自动导入,由于导入时触发了元类注册,所以makemigrations时依然可以正常识别模型的变化生成迁移脚本.
