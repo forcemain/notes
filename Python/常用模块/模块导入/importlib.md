@@ -2,11 +2,10 @@
 
 * [模块简介](#模块简介)
 * [属性方法](#属性方法)
-* [源码分析](#源码分析)
+* [应用场景](#应用场景)
   * [声明位置](#声明位置)
   * [调用位置](#调用位置)
 * [实战练习](#实战练习)
-* [实战总结](#实战总结)
 
 ----
 
@@ -14,13 +13,15 @@
 
 > 内置模块,默认提供import语句底层实现,包括动态导入,导入检查等特性
 
-# 属性方法
+#  属性方法
 
-| 属性                             | 说明                                                         |
-| -------------------------------- | ------------------------------------------------------------ |
-| import_module(name,package=None) | 字符串的形式动态导入模块,当name为.开头的相对导入字符串,package必须存在 |
+| 属性                              | 说明                                                         |
+| --------------------------------- | ------------------------------------------------------------ |
+| import_module(name, package=None) | 字符串的形式动态导入模块,当name为.开头的相对导入字符串,package必须存在 |
 
-# 源码分析
+# 应用场景
+
+> Django框架中自动加载应用集配置中的中间件.
 
 ## 声明位置
 
@@ -171,38 +172,46 @@ import importlib
 
 
 def import_sub_module(package, name):
-    # 尝试获取包所在路径
+    # 第三方包默认都存在__path__,如果不存在则说明传参错误
     try:
         m = importlib.import_module(package)
         path = m.__path__
     except AttributeError:
         return
-    # 尝试查找模块是否存在
+    # 从包路径查找模块或包
     try:
         imp.find_module(name, path)
     except ImportError:
         return
-    # 真正导入
+    # 按照绝对路径导入字符串导入
     dotted_path = '{0}.{1}'.format(package, name)
-    importlib.import_module(dotted_path)
+    return importlib.import_module(dotted_path)
 
 
 def autodiscovery_modules(package, entrance):
+    # 记录导入的模块对象
+    modules = []
+
     cur_dir = os.path.dirname(entrance)
     pyfiles = os.listdir(cur_dir)
-    # 遍历entrance所在目录下的模块或包
+    # 遍历当前目录尝试导入目录下模块和包
     for f_name in pyfiles:
         f_path = os.path.join(cur_dir, f_name)
         if os.path.isfile(f_path):
             if not f_name.endswith('.py'):
                 continue
-            # 如果为模块则获取模块名    
             m_name, _, _ = f_name.rpartition('.')
+            if m_name == '__init__':
+                continue
         else:
-            # 如果为目录则假设为包名
+            # 假设目录就是Python包
             m_name = f_name
         # 尝试导入
-        import_sub_module(package, m_name)
+        m = import_sub_module(package, m_name)
+        if not m:
+            continue
+        modules.append(m)
+    return modules
 ```
 
 > mysite/polls/models.py
@@ -214,29 +223,18 @@ def autodiscovery_modules(package, entrance):
 # author: forcemain@163.com
 
 
-from ._models import *
-```
-
-> mysite/polls/_models/\_\_init\_\_.py
-
-```python
-#! -*- coding: utf-8 -*-
-
-
-# author: forcemain@163.com
-
-
 from functools import partial
 from utils.module_loading import autodiscovery_modules
 
+# 当尝试导入此包下的模块或包时就会自动预导入,由于Django默认模型使用元类注册,所以导入时就会自动到基类注册,所以makemigrations不受影响
+modules = autodiscovery_modules(__name__, __file__)
 
-# 需要注意是的要实现无限递归自动导入需要将如下代码加入需要自动导入的包的__init__.py文件
-autodiscovery_modules(__name__, __file__)
 
+# 注入全局变量,并不推荐,只是模拟from x import *,让Django模型和原来一样类似from polls.models import Question, Choice一样正常调用
+g_data = {}
+map(lambda m: g_data.update(m.__dict__), modules)
+globals().update(g_data)
 
 autodiscovery = partial(autodiscovery_modules,__name__, __file__)
 ```
 
-# 实战总结
-
-* 模块和包的自动导入常常会配合元类来实现自动注册功能,如上模块化Django应用的模型后如果不希望每次手动导入分离的模型模块可添加如上代码实现自动导入,由于导入时触发了元类注册,所以makemigrations时依然可以正常识别模型的变化生成迁移脚本.
