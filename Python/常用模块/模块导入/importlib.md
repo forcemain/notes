@@ -153,7 +153,7 @@ class BaseHandler(object):
 
 # 实战练习
 
-* 如何实现项目中模块和包的自动递归导入 ?
+* 如何实现项目中模块和包的递归自动导入 ?
   * 思考
     * 怎么配合元类实现自动注册功能 ?
     * 尝试模块化Django应用的后台,模型,视图,测试并实现自动导入 ?
@@ -215,7 +215,7 @@ def autodiscovery_modules(package, entrance):
     return modules
 ```
 
-> mysite/polls/models.py
+> mysite/polls/models/\_\_init\_\_.py
 
 ```python
 #! -*- coding: utf-8 -*-
@@ -241,4 +241,5 @@ autodiscovery = partial(autodiscovery_modules,__name__, __file__)
 
 # 实战总结
 
-* 自动导入通常配合元类注册才能发挥其优势,如上由于Django框架的模型基于元类注册所以才能配合自动导入使用.
+* 自动导入通常配合元类注册才能发挥其优势,如上由于Django框架的模型基于元类注册所以才能完美配合自动导入使用
+
