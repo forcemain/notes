@@ -22,7 +22,7 @@
 
 # 实战练习
 
-* 查询django.contrib.sessions下是否包含middleware模块 ?
+* 查询django.contrib.sessions包下是否包含middleware模块 ?
 
 ```python
 #! -*- coding: utf-8 -*-
