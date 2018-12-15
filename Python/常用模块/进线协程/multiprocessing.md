@@ -1,3 +1,37 @@
+----
+
+* [模块由来](#模块由来)
+* [简单介绍](#简单介绍)
+* [创建进程](#创建进程)
+  * [创建方式](#创建方式)
+  * [属性方法](#属性方法)
+* [创建进程池](#创建进程池)
+  * [模拟实现](#模拟实现)
+  * [真实架构](#真实架构)
+  * [创建方式](#创建方式)
+  * [属性方法](#属性方法)
+* [创建线程](#创建线程)
+* [进程间资源共享](#进程间资源共享)
+  * [Pipe](#Pipe)
+  * [Queue](#Queue)
+  * [Value](#Value)
+  * [Array](#Array)
+  * [Manager](#Manager)
+* [进程间竞态同步](#进程间竞态同步)
+  * [非进程池](#非进程池)
+    * [Lock](#Lock)
+    * [RLock](#RLock)
+    * [Semaphore](#Semaphore)
+    * [Event](Event)
+    * [Condition](#Condition)
+  * [进程池](#进程池)
+    * [巧用initializer和initargs](#巧用initializer和initargs)
+  * [分布式应用支持](#分布式应用支持)
+    * [常规套路](#常规套路)
+  * [踩坑日记](#踩坑日记)
+
+---
+
 # 模块由来
 
 > Python默认使用全局解释锁GIL保护解释器内置状态数据,例如引用计数,导致同一时间只能有一个线程操作解释器,所以所谓的多线程只能利用单核,为了充分利用多核,通常会配合多进程
@@ -1068,7 +1102,7 @@ if __name__ == '__main__':
 
 > multiprocessing.managers.BaseManager支持将进程分布在多台机器上进行分布式调度,其实原理很简单,manager启动时将读写Queue注册到网络上,worker注册上来时通过名称和authkey关联对应的读写队列,后续的数据收发就全部走网络
 
-## 真实案例
+## 常规套路
 
 ![image-20181215082826704](multiprocessing.assets/image-20181215082826704-4833707.png)
 
@@ -1231,7 +1265,7 @@ if __name__ == '__main__':
             print 'Client send data: {0}'.format(data.upper())
 ```
 
-# 未完待续
+# 踩坑日记
 
 * Win平台下使用前需要调用multiprocessing.freeze_support(),否则可能会抛出RuntimeError异常
 
