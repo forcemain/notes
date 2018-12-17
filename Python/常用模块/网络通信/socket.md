@@ -1,4 +1,6 @@
-# 服务端套路
+# 常规套路
+
+## 服务端
 
 ```python
 #! -*- coding: utf-8 -*-
@@ -126,7 +128,7 @@ if __name__ == '__main__':
     server.run()
 ```
 
-# 客户端套路
+## 客户端
 
 ```python
 #! -*- coding: utf-8 -*-
@@ -165,4 +167,8 @@ if __name__ == '__main__':
     data = head_packed+body_with_crc_bytes
     sock.sendall(data)
 ```
+
+# 实战练习
+
+* [编写SOCKET5服务器](#https://hatboy.github.io/2018/04/28/Python%E7%BC%96%E5%86%99socks5%E6%9C%8D%E5%8A%A1%E5%99%A8/)
 
