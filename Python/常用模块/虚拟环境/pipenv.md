@@ -50,7 +50,7 @@ pipenv --python ~/.pyenv/versions/3.6.6/bin/python
 pipenv install django==1.11.5
 # 安装MySQL-python For Mac, 其它系统比较简单,略
 # ---可能出现的问题
-# fatal error: 'my_config.h' file not found
+# fatal error: 'my_config.h' file not found	
 # ---
 # 已安装可跳过
 brew install mysql
@@ -71,7 +71,7 @@ brew link --overwrite mysql
 ```ini
 [[source]]
 name = "pypi"
-url = "https://pypi.org/simple"
+url = "https://pypi.doubanio.com/simple"
 verify_ssl = true
 ```
 
