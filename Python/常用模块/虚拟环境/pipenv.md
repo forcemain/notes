@@ -7,16 +7,16 @@
   * [创建独立虚拟环境](#创建独立虚拟环境)
   * [管理第三方依赖包](#管理第三方依赖包)
   * [更新PYPI源的地址](#更新PYPI源的地址)
-  * [利用虚拟环境开发](#利用虚拟环境开发)
+  * [在虚拟环境中运行](#在虚拟环境中运行)
+  * [一键激活虚拟环境](#一键激活虚拟环境)
+* [团队协作](#团队协作)
 * [错误汇总](#错误汇总)
 
 ----
 
 # 模块简介
 
-> 第三方模块,可实现一台主机上轻松安装管理切换Python虚拟开发环境
-
-* 此模块是Python官方推荐的包管理工具,综合了virtualenv,pip,pyenv三者的功能,使用Pipfile和Pipfile.lock来自动管理依赖包,当通过pipenv添加或删除包时,它会自动维护Pipfile文件并同时生成Pipfile.lock来锁定安装包的版本和依赖信息,避免构建错误
+> 第三方模块,可实现一台主机上轻松安装管理切换Python虚拟开发环境,通过Pipfile和Pipfile.lock来代替Virtualenv和pip虚拟环境包管理
 
 # 安装部署
 
@@ -39,30 +39,39 @@ source ~/.bash_profile
 
 ```python
 mkdir myproject
+cd myproject
 pipenv --python ~/.pyenv/versions/3.6.6/bin/python
 ```
 
 ## 管理第三方依赖包
 
-> pipenv操作指令和pip完全一致,不再重复说明
+> 允许我们在未激活虚拟环境的情况下优雅管理虚拟环境第三方依赖包
 
 ```bash
-pipenv install django==1.11.5
-# 安装MySQL-python For Mac, 其它系统比较简单,略
-# ---可能出现的问题
-# fatal error: 'my_config.h' file not found	
-# ---
-# 已安装可跳过
-brew install mysql
-brew unlink mysql
-brew install mysql-connector-c
-sed -i -e 's/libs="$libs -l "/libs="$libs -lmysqlclient -lssl -lcrypto"/g' /usr/local/bin/mysql_config
-pip install MySQL-python
-brew unlink mysql-connector-c
-brew link --overwrite mysql
+# 只安装Pipfile.lock中正式环境包
+pipenv install
+# 安装Pipfile.lock中正式环境包和开发环境包
+pipenv sync
+# 卸载虚拟环境所有包,但不会自动更新Pipfile和Pipfile.lock
+pipenv uninstall --all
+# 删除Pipfile和Pipfile.lock中所有条目并更新
+pipenv uninstall --all-dev
+# 卸载虚拟环境指定包,会自动更新Pipfile和Pipfile.lock
+pipenv uninstall django
+pipenv uninstall pymysql
+# 安装指定版本的包到虚拟环境,可加-r参数指定requirements.txt文件
+pipenv install django
+pipenv install PyMySQL
+# 安装最新版本的包到虚拟环境,-d标记开发环境依赖的包,可加-r参数指定requirements.txt文件
+pipenv install selenium --dev
 ```
 
+## 查看虚拟环境包依赖
 
+```bash
+# 可加--json输出json形式
+pipenv graph
+```
 
 ## 更新PYPI源的地址
 
@@ -77,13 +86,25 @@ verify_ssl = true
 
 * 可改为国内[豆瓣源](https://pypi.doubanio.com/simple/),加快下载速度
 
-## 利用虚拟环境开发
+## 在虚拟环境中运行
+
+```bash
+pipenv run pip freeze
+# 尝试启动Django应用
+pipenv run python manage.py runserver 0.0.0.0:80
+```
+
+## 一键激活虚拟环境
 
 ```bash
 pipenv shell
 ```
 
 * 通过如上指令即可进入virtualenv虚拟开发环境,此虚拟环境默认Python Shll为3.6.6
+
+# 团队协作
+
+> 推荐将Pipfile和Pipfile.lock基于版本控制管理
 
 # 错误汇总
 
