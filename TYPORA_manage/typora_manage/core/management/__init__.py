@@ -10,6 +10,9 @@ import pkgutil
 import importlib
 
 
+from collections import OrderedDict
+
+
 def find_commands(management_dir):
     command_dir = os.path.join(management_dir, 'commands')
     return [name for _, name, is_pkg in pkgutil.iter_modules([command_dir])
@@ -32,11 +35,32 @@ class Management(object):
         self.argv = argv or sys.argv[:]
         self.prog_name = os.path.basename(self.argv[0])
 
+    def main_help_text(self):
+        usage = [
+            "",
+            "Type '%s <subcommand> -h or --help' for help on a specific subcommand." % self.prog_name,
+            "",
+            "Available subcommands:",
+        ]
+        available_dict = OrderedDict()
+        commands = get_commands()
+        for name in commands:
+            app_name = commands[name]
+            available_dict.setdefault(app_name, []).append(name)
+        print os.linesep.join(usage)
+        for name in available_dict:
+            print '[ {0} ]'.format(name)
+            print os.linesep.join(available_dict[name])
+
     def execute(self):
         try:
             subcommand = self.argv[1]
         except IndexError:
-            subcommand = 'help'
+            subcommand = '--help'
+
+        if subcommand in ['-h', '--help']:
+            self.main_help_text()
+            sys.exit(0)
 
         self.fetch_command(subcommand).run_from_argv(self.argv)
 
@@ -45,7 +69,7 @@ class Management(object):
         try:
             app_name = commands[subcommand]
         except KeyError:
-            print 'Unknow command: {0}{1}Type "{2} help" for usage'.format(
+            print 'Unknow command: {0}{1}Type "{2} -h or --help" for usage'.format(
                 subcommand, os.linesep, self.prog_name
             )
             sys.exit(1)
