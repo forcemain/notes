@@ -2,20 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8e8f52a9-c05d-4d9c-805f-8b1a9789be78" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Django/基础教程/入门相关/投票应用-管理站点.assets/image-20181230081414337.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Django/基础教程/入门相关/投票应用-管理站点.assets/image-20181230081648946.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Django/基础教程/入门相关/投票应用-管理站点.assets/image-20181230084044645.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Django/基础教程/入门相关/投票应用-管理站点.assets/image-20181230084207425.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Django/基础教程/入门相关/投票应用-管理站点.assets/image-20181230084428624.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Django/基础教程/入门相关/投票应用-管理站点.assets/image-20181230084907752.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/中级教程/魔术方法/__ror__.assets/image-20190102141005340.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TYPORA_assets_clearner.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/typora_manage/core/management/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/typora_manage/core/management/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/typora_manage/core/management/commands/clean.py" beforeDir="false" afterPath="$PROJECT_DIR$/typora_manage/core/management/commands/clean.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/typora_manage/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/typora_manage/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/typora_manage/utils/pipe.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -40,7 +27,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/typora_manage/core/management/__init__.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="452">
+            <state relative-caret-position="760">
               <caret line="40" column="47" selection-start-line="40" selection-start-column="47" selection-end-line="40" selection-end-column="47" />
               <folding>
                 <element signature="e#57#66#0" expanded="true" />
@@ -52,8 +39,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file:///Library/Python/2.7/site-packages/django/core/management/__init__.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="185">
-              <caret line="150" column="15" lean-forward="true" selection-start-line="150" selection-start-column="15" selection-end-line="153" selection-end-column="41" />
+            <state relative-caret-position="2850">
+              <caret line="150" column="15" selection-start-line="150" selection-start-column="15" selection-end-line="153" selection-end-column="41" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -64,32 +51,30 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file:///Library/Python/2.7/site-packages/django/core/management/base.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3858">
+            <state relative-caret-position="1900">
               <caret line="112" column="6" selection-start-line="112" selection-start-column="6" selection-end-line="112" selection-end-column="6" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/typora_manage/core/management/commands/clean.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="12" column="53" selection-start-line="12" selection-start-column="53" selection-end-line="12" selection-end-column="53" />
+            <state relative-caret-position="247">
+              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
               <folding>
-                <element signature="e#523#739#0" />
-                <element signature="e#736#932#0" />
-                <element signature="e#1102#1265#0" />
+                <element signature="e#57#66#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="190">
-                <caret line="10" column="8" lean-forward="true" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+              <first_editor relative-caret-position="361">
+                <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
               </first_editor>
               <second_editor />
             </state>
@@ -111,8 +96,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/typora_manage/core/management/base.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="328">
-              <caret line="24" column="41" lean-forward="true" selection-start-line="24" selection-start-column="41" selection-end-line="24" selection-end-column="41" />
+            <state relative-caret-position="456">
+              <caret line="24" column="41" selection-start-line="24" selection-start-column="41" selection-end-line="24" selection-end-column="41" />
               <folding>
                 <element signature="e#57#66#0" expanded="true" />
               </folding>
@@ -206,35 +191,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="TYPORA_manage" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TYPORA_manage" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TYPORA_manage" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TYPORA_manage" type="462c0819:PsiDirectoryNode" />
-              <item name="typora_manage" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TYPORA_manage" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TYPORA_manage" type="462c0819:PsiDirectoryNode" />
-              <item name="typora_manage" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TYPORA_manage" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TYPORA_manage" type="462c0819:PsiDirectoryNode" />
-              <item name="typora_manage" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="management" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -303,17 +260,17 @@
       <updated>1546212847026</updated>
       <workItem from="1546212848234" duration="26451000" />
       <workItem from="1546411567599" duration="5211000" />
+      <workItem from="1546419988601" duration="1005000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31662000" />
+    <option name="totallyTimeSpent" value="32667000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="195" y="23" width="1680" height="1001" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="23" width="1680" height="1001" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25305623" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25611246" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -382,13 +339,7 @@
     <entry file="file://$PROJECT_DIR$/typora_manage/core/management/commands/help.py" />
     <entry file="file://$PROJECT_DIR$/typora_manage/utils/markdown.py" />
     <entry file="file://$PROJECT_DIR$/main.py" />
-    <entry file="file://$PROJECT_DIR$/typora_manage/utils/pipe.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/typora_manage/utils/pipe.py" />
     <entry file="file://$PROJECT_DIR$/typora_manage/utils/logger.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -406,25 +357,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TYPORA_assets_clearner.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/typora_manage/core/management/commands/__init__.py">
+    <entry file="file://$PROJECT_DIR$/TYPORA_assets_clearner.py" />
+    <entry file="file://$PROJECT_DIR$/typora_manage/core/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret selection-end-line="5" />
+          <caret selection-end-line="3" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/typora_manage/core/management/commands/clean.py">
+    <entry file="file://$PROJECT_DIR$/typora_manage/core/management/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="12" column="53" selection-start-line="12" selection-start-column="53" selection-end-line="12" selection-end-column="53" />
+        <state relative-caret-position="760">
+          <caret line="40" column="47" selection-start-line="40" selection-start-column="47" selection-end-line="40" selection-end-column="47" />
           <folding>
-            <element signature="e#523#739#0" />
-            <element signature="e#736#932#0" />
-            <element signature="e#1102#1265#0" />
+            <element signature="e#57#66#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Python/2.7/site-packages/django/core/management/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2850">
+          <caret line="150" column="15" selection-start-line="150" selection-start-column="15" selection-end-line="153" selection-end-column="41" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Python/2.7/site-packages/django/core/management/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1900">
+          <caret line="112" column="6" selection-start-line="112" selection-start-column="6" selection-end-line="112" selection-end-column="6" />
         </state>
       </provider>
     </entry>
@@ -438,17 +402,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file:///Library/Python/2.7/site-packages/django/core/management/base.py">
+    <entry file="file://$PROJECT_DIR$/typora_manage/core/management/base.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3858">
-          <caret line="112" column="6" selection-start-line="112" selection-start-column="6" selection-end-line="112" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/typora_manage/core/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="3" selection-end-column="27" />
+        <state relative-caret-position="456">
+          <caret line="24" column="41" selection-start-line="24" selection-start-column="41" selection-end-line="24" selection-end-column="41" />
+          <folding>
+            <element signature="e#57#66#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -459,43 +419,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/typora_manage/core/management/base.py">
+    <entry file="file://$PROJECT_DIR$/typora_manage/core/management/commands/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
-          <caret line="24" column="41" lean-forward="true" selection-start-line="24" selection-start-column="41" selection-end-line="24" selection-end-column="41" />
-          <folding>
-            <element signature="e#57#66#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///Library/Python/2.7/site-packages/django/core/management/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="150" column="15" lean-forward="true" selection-start-line="150" selection-start-column="15" selection-end-line="153" selection-end-column="41" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/typora_manage/core/management/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="452">
-          <caret line="40" column="47" selection-start-line="40" selection-start-column="47" selection-end-line="40" selection-end-column="47" />
-          <folding>
-            <element signature="e#57#66#0" expanded="true" />
-          </folding>
+        <state>
+          <caret selection-end-line="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="190">
-            <caret line="10" column="8" lean-forward="true" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+          <first_editor relative-caret-position="361">
+            <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/typora_manage/core/management/commands/clean.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="e#57#66#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
