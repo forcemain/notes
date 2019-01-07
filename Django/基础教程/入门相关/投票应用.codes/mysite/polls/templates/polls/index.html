@@ -1,0 +1,8 @@
+{% if questions %}
+    {% for question in questions %}
+        <a href="{% url 'polls:tpl-poll-detail' question_pk=question.pk %}">{{ question.question_text }}</a>
+        <br>
+    {% endfor %}
+{% else %}
+    <p>No polls are valiable.</p>
+{% endif %}

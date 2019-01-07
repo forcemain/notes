@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8e8f52a9-c05d-4d9c-805f-8b1a9789be78" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/typora_manage/core/management/commands/clean_pycfiles.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/typora_manage/core/management/commands/generate_toc.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Django/基础教程/入门相关/投票应用-模型.md" beforeDir="false" afterPath="$PROJECT_DIR$/../Django/基础教程/入门相关/投票应用-模型.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Django/基础教程/入门相关/投票应用-管理站点.md" beforeDir="false" afterPath="$PROJECT_DIR$/../Django/基础教程/入门相关/投票应用-管理站点.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/typora_manage/core/management/commands/clean.py" beforeDir="false" afterPath="$PROJECT_DIR$/typora_manage/core/management/commands/clean_images.py" afterDir="false" />
-    </list>
+    <list default="true" id="8e8f52a9-c05d-4d9c-805f-8b1a9789be78" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -189,8 +182,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-165" />
-    <option name="y" value="23" />
+    <option name="x" value="410" />
+    <option name="y" value="56" />
     <option name="width" value="1680" />
     <option name="height" value="1001" />
   </component>
@@ -309,16 +302,15 @@
       <workItem from="1546212848234" duration="26451000" />
       <workItem from="1546411567599" duration="5211000" />
       <workItem from="1546419988601" duration="2384000" />
-      <workItem from="1546518299501" duration="8789000" />
+      <workItem from="1546518299501" duration="8999000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42835000" />
+    <option name="totallyTimeSpent" value="43045000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-165" y="23" width="1680" height="1001" extended-state="0" />
-    <editor active="true" />
+    <frame x="410" y="56" width="1680" height="1001" extended-state="0" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2591687" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />

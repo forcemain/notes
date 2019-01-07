@@ -1,0 +1,17 @@
+<h2>{{ question.question_text }}</h2>
+
+{% if error_message %}
+    <p><strong style="color: red;">{{ error_message }}</strong></p>
+{% endif %}
+
+<form action="{% url 'polls:rdr-poll-vote' question_pk=question.pk %}" method="post">
+    {% csrf_token %}
+    {% for choice in question.choice_set.all %}
+        <input type="radio" name="choice_pk" value="{{ choice.pk }}"> {{ choice.choice_text }}
+        <br>
+    {% endfor %}
+    <br>
+    <input type="submit" value="vote">
+</form>
+
+<p><a href="{% url 'polls:tpl-poll-index' %}">home</a></p>

@@ -10,4 +10,10 @@ from django.contrib import admin
 from .. import models
 
 
-admin.site.register(models.Choice)
+class ChoiceAdmin(admin.ModelAdmin):
+    list_per_page = 15
+    search_fields = ['choice_text']
+    list_display = ['pk', 'choice_text', 'votes', 'question']
+
+
+admin.site.register(models.Choice, ChoiceAdmin)
