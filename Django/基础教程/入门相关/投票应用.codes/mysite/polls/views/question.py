@@ -4,10 +4,12 @@
 # author: forcemain@163.com
 
 
+from django.http import Http404
 from django.conf import settings
+from django.utils import timezone
+from django.shortcuts import render
 from django.http import HttpResponseRedirect
 from django.core.urlresolvers import reverse_lazy
-from django.shortcuts import render, get_object_or_404
 from django.views.generic import ListView, DetailView, View
 
 
@@ -22,6 +24,12 @@ class PollIndexView(ListView):
 
     template_name = 'polls/index.html'
 
+    def get_queryset(self):
+        queryset = super(PollIndexView, self).get_queryset()
+        return queryset.filter(
+            pub_date__lte=timezone.now()
+        ).order_by('-pub_date')
+
 
 class PollDetailView(DetailView):
     model = models.Question
@@ -30,6 +38,12 @@ class PollDetailView(DetailView):
     queryset = models.Question.objects.all()
 
     template_name = 'polls/detail.html'
+
+    def get_queryset(self):
+        queryset = super(PollDetailView, self).get_queryset()
+        return queryset.filter(
+            pub_date__lte=timezone.now()
+        ).order_by('-pub_date')
 
 
 class PollResultView(DetailView):
@@ -40,10 +54,25 @@ class PollResultView(DetailView):
 
     template_name = 'polls/result.html'
 
+    def get_queryset(self):
+        queryset = super(PollResultView, self).get_queryset()
+        return queryset.filter(
+            pub_date__lte=timezone.now()
+        ).order_by('-pub_date')
+
 
 class PollVoteView(View):
+    def get_queryset(self):
+        return models.Question.objects.filter(
+            pub_date__lte=timezone.now()
+        ).order_by('-pub_date')
+
     def post(self, request, question_pk):
-        question = get_object_or_404(models.Question, pk=question_pk)
+        queryset = self.get_queryset()
+        try:
+            question = queryset.get(pk=question_pk)
+        except models.Question.DoesNotExist as e:
+            raise Http404(e)
         try:
             choice = question.choice_set.get(pk=request.POST['choice_pk'])
         except (KeyError, models.Choice.DoesNotExist):
