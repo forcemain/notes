@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9b930ca7-1bb5-4d32-a661-f966bf3b976e" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/polls/static/polls/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../投票应用-打包发布.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../投票应用-打包发布.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../投票应用-静态文件.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../投票应用-静态文件.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/polls/templates/polls/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/polls/templates/polls/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/polls/tests/test_choice.py" beforeDir="false" afterPath="$PROJECT_DIR$/polls/tests/test_choice.py" afterDir="false" />
-    </list>
+    <list default="true" id="9b930ca7-1bb5-4d32-a661-f966bf3b976e" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +48,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/mysite/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="215">
+            <state relative-caret-position="-1153">
               <caret line="43" column="12" selection-start-line="43" selection-start-column="12" selection-end-line="43" selection-end-column="12" />
             </state>
           </provider>
@@ -255,8 +246,8 @@
     <auto-save>true</auto-save>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="91" />
-    <option name="y" value="23" />
+    <option name="x" value="327" />
+    <option name="y" value="121" />
     <option name="width" value="1680" />
     <option name="height" value="1002" />
   </component>
@@ -393,15 +384,15 @@
       <workItem from="1546567488951" duration="12879000" />
       <workItem from="1546590394559" duration="3150000" />
       <workItem from="1546596117830" duration="36419000" />
-      <workItem from="1546921257157" duration="12607000" />
+      <workItem from="1546921257157" duration="13004000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="93829000" />
+    <option name="totallyTimeSpent" value="94226000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1680" height="1002" extended-state="6" />
+    <frame x="327" y="121" width="1680" height="1002" extended-state="0" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2787286" />
       <window_info id="Structure" order="1" weight="0.25" />
@@ -809,7 +800,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mysite/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
+        <state relative-caret-position="-1153">
           <caret line="43" column="12" selection-start-line="43" selection-start-column="12" selection-end-line="43" selection-end-column="12" />
         </state>
       </provider>

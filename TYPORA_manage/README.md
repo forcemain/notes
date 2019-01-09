@@ -23,7 +23,10 @@ Type 'manage.py <subcommand> -h or --help' for help on a specific subcommand.
 
 Available subcommands:
 [ typora_manage.core ]
-clean
+clean_images
+clean_pycfiles
+generate_toc
+
 ````
 
 > python manage.py clean --help
