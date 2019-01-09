@@ -24,7 +24,7 @@ Type 'manage.py <subcommand> -h or --help' for help on a specific subcommand.
 Available subcommands:
 [ typora_manage.core ]
 clean_images
-clean_images.pycfiles
+clean_pycfiles
 generate_toc
 
 ````
