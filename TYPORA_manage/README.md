@@ -24,7 +24,7 @@ Type 'manage.py <subcommand> -h or --help' for help on a specific subcommand.
 Available subcommands:
 [ typora_manage.core ]
 clean_images
-clean_pycfiles
+clean_images.pycfiles
 generate_toc
 
 ````
@@ -46,19 +46,19 @@ optional arguments:
 > python manage.py clean_images -p ../
 
 ```bash
-2019-01-02 16:15:15,024 - typora_manage.core.management.commands.clean - /Users/manmanli/Github/notes/TYPORA_manage/typora_manage/core/management/commands/clean.py - 59 - WARNING - Found unused image(image-20190102141005340.png) in ../Python/中级教程/魔术方法/__ror__.assets, deleted
-2019-01-02 16:15:15,036 - typora_manage.core.management.commands.clean - /Users/manmanli/Github/notes/TYPORA_manage/typora_manage/core/management/commands/clean.py - 59 - WARNING - Found unused image(image-20181219174246463.png) in ../Python/常用模块/存储接口/MySQL-python.assets, deleted
-2019-01-02 16:15:15,052 - typora_manage.core.management.commands.clean - /Users/manmanli/Github/notes/TYPORA_manage/typora_manage/core/management/commands/clean.py - 59 - WARNING - Found unused image(image-20181213161310651.png) in ../Python/常用模块/进线协程/multiprocessing.assets, deleted
-2019-01-02 16:15:15,052 - typora_manage.core.management.commands.clean - /Users/manmanli/Github/notes/TYPORA_manage/typora_manage/core/management/commands/clean.py - 59 - WARNING - Found unused image(image-20181215082826704.png) in ../Python/常用模块/进线协程/multiprocessing.assets, deleted
-2019-01-02 16:15:15,161 - typora_manage.core.management.commands.clean - /Users/manmanli/Github/notes/TYPORA_manage/typora_manage/core/management/commands/clean.py - 59 - WARNING - Found unused image(image-20181230084044645.png) in ../Django/基础教程/入门相关/投票应用-管理站点.assets, deleted
-2019-01-02 16:15:15,161 - typora_manage.core.management.commands.clean - /Users/manmanli/Github/notes/TYPORA_manage/typora_manage/core/management/commands/clean.py - 59 - WARNING - Found unused image(image-20181230081414337.png) in ../Django/基础教程/入门相关/投票应用-管理站点.assets, deleted
-2019-01-02 16:15:15,161 - typora_manage.core.management.commands.clean - /Users/manmanli/Github/notes/TYPORA_manage/typora_manage/core/management/commands/clean.py - 59 - WARNING - Found unused image(image-20181230084207425.png) in ../Django/基础教程/入门相关/投票应用-管理站点.assets, deleted
-2019-01-02 16:15:15,162 - typora_manage.core.management.commands.clean - /Users/manmanli/Github/notes/TYPORA_manage/typora_manage/core/management/commands/clean.py - 59 - WARNING - Found unused image(image-20181230081648946.png) in ../Django/基础教程/入门相关/投票应用-管理站点.assets, deleted
-2019-01-02 16:15:15,162 - typora_manage.core.management.commands.clean - /Users/manmanli/Github/notes/TYPORA_manage/typora_manage/core/management/commands/clean.py - 59 - WARNING - Found unused image(image-20181230084907752.png) in ../Django/基础教程/入门相关/投票应用-管理站点.assets, deleted
-2019-01-02 16:15:15,162 - typora_manage.core.management.commands.clean - /Users/manmanli/Github/notes/TYPORA_manage/typora_manage/core/management/commands/clean.py - 59 - WARNING - Found unused image(image-20181230084428624.png) in ../Django/基础教程/入门相关/投票应用-管理站点.assets, deleted
+2019-01-02 16:15:15,024 - typora_manage.core.management.commands.clean - /Users/manmanli/Github/notes/TYPORA_manage/typora_manage/core/management/commands/clean_images.py - 59 - WARNING - Found unused image(image-20190102141005340.png) in ../Python/中级教程/魔术方法/__ror__.assets, deleted
+2019-01-02 16:15:15,036 - typora_manage.core.management.commands.clean - /Users/manmanli/Github/notes/TYPORA_manage/typora_manage/core/management/commands/clean_images.py - 59 - WARNING - Found unused image(image-20181219174246463.png) in ../Python/常用模块/存储接口/MySQL-python.assets, deleted
+2019-01-02 16:15:15,052 - typora_manage.core.management.commands.clean - /Users/manmanli/Github/notes/TYPORA_manage/typora_manage/core/management/commands/clean_images.py - 59 - WARNING - Found unused image(image-20181213161310651.png) in ../Python/常用模块/进线协程/multiprocessing.assets, deleted
+2019-01-02 16:15:15,052 - typora_manage.core.management.commands.clean - /Users/manmanli/Github/notes/TYPORA_manage/typora_manage/core/management/commands/clean_images.py - 59 - WARNING - Found unused image(image-20181215082826704.png) in ../Python/常用模块/进线协程/multiprocessing.assets, deleted
+2019-01-02 16:15:15,161 - typora_manage.core.management.commands.clean - /Users/manmanli/Github/notes/TYPORA_manage/typora_manage/core/management/commands/clean_images.py - 59 - WARNING - Found unused image(image-20181230084044645.png) in ../Django/基础教程/入门相关/投票应用-管理站点.assets, deleted
+2019-01-02 16:15:15,161 - typora_manage.core.management.commands.clean - /Users/manmanli/Github/notes/TYPORA_manage/typora_manage/core/management/commands/clean_images.py - 59 - WARNING - Found unused image(image-20181230081414337.png) in ../Django/基础教程/入门相关/投票应用-管理站点.assets, deleted
+2019-01-02 16:15:15,161 - typora_manage.core.management.commands.clean - /Users/manmanli/Github/notes/TYPORA_manage/typora_manage/core/management/commands/clean_images.py - 59 - WARNING - Found unused image(image-20181230084207425.png) in ../Django/基础教程/入门相关/投票应用-管理站点.assets, deleted
+2019-01-02 16:15:15,162 - typora_manage.core.management.commands.clean - /Users/manmanli/Github/notes/TYPORA_manage/typora_manage/core/management/commands/clean_images.py - 59 - WARNING - Found unused image(image-20181230081648946.png) in ../Django/基础教程/入门相关/投票应用-管理站点.assets, deleted
+2019-01-02 16:15:15,162 - typora_manage.core.management.commands.clean - /Users/manmanli/Github/notes/TYPORA_manage/typora_manage/core/management/commands/clean_images.py - 59 - WARNING - Found unused image(image-20181230084907752.png) in ../Django/基础教程/入门相关/投票应用-管理站点.assets, deleted
+2019-01-02 16:15:15,162 - typora_manage.core.management.commands.clean - /Users/manmanli/Github/notes/TYPORA_manage/typora_manage/core/management/commands/clean_images.py - 59 - WARNING - Found unused image(image-20181230084428624.png) in ../Django/基础教程/入门相关/投票应用-管理站点.assets, deleted
 ```
 
 # 扩展命令
 
-> 只需在TYPORA_manage/typora_manage/core/management/commands下仿照clean.py编写Py文件,编写继承自BaseCommand实现add_parser_arguments和handle方法的Command类即可,略
+> 只需在TYPORA_manage/typora_manage/core/management/commands下仿照clean_images.py编写Py文件,编写继承自BaseCommand实现add_parser_arguments和handle方法的Command类即可,略
 
