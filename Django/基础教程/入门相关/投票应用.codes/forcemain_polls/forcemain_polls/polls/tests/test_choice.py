@@ -14,7 +14,7 @@ from .. import models
 
 
 class ChoiceTestCase(TestCase):
-    faker = Faker('zh_CN')
+    faker = Faker()
 
     def setUp(self):
         self.question = models.Question.objects.create(

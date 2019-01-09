@@ -1,0 +1,13 @@
+<h2>{{ question.question_text }}</h2>
+
+<table>
+{% for choice in question.choice_set.all %}
+    <tr>
+        <td>{{ choice.choice_text }}</td>
+        <td>{{ choice.votes }}</td>
+    </tr>
+{% endfor %}
+</table>
+
+<p><a href="{% url 'polls:tpl-poll-detail' question_pk=question.pk %}">vote again?</a></p>
+<p><a href="{% url 'polls:tpl-poll-index' %}">home</a></p>
