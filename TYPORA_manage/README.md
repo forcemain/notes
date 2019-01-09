@@ -29,10 +29,10 @@ generate_toc
 
 ````
 
-> python manage.py clean --help
+> python manage.py clean_images --help
 
 ````python
-usage: manage.py clean [-h] -p PATH
+usage: manage.py clean_images [-h] -p PATH
 
 Auto clean unused typaro assets images
 
@@ -43,7 +43,7 @@ optional arguments:
 
 # 调试日志
 
-> python manage.py clean -p .
+> python manage.py clean_images -p ../
 
 ```bash
 2019-01-02 16:15:15,024 - typora_manage.core.management.commands.clean - /Users/manmanli/Github/notes/TYPORA_manage/typora_manage/core/management/commands/clean.py - 59 - WARNING - Found unused image(image-20190102141005340.png) in ../Python/中级教程/魔术方法/__ror__.assets, deleted
