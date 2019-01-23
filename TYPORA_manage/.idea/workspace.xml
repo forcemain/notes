@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8e8f52a9-c05d-4d9c-805f-8b1a9789be78" name="Default Changelist" comment="" />
+    <list default="true" id="8e8f52a9-c05d-4d9c-805f-8b1a9789be78" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../Python/项目实战/消息通知服务/SMN-前期架构设计.md" beforeDir="false" afterPath="$PROJECT_DIR$/../Python/项目实战/消息通知服务/SMN-前期架构设计.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Python/项目实战/消息通知服务/SMN-统一认证授权.md" beforeDir="false" afterPath="$PROJECT_DIR$/../Python/项目实战/消息通知服务/SMN-统一认证授权.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,7 +29,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/typora_manage/core/management/__init__.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="237">
+            <state relative-caret-position="646">
               <caret line="40" column="72" selection-start-line="40" selection-start-column="63" selection-end-line="40" selection-end-column="72" />
               <folding>
                 <element signature="e#57#66#0" expanded="true" />
@@ -34,11 +38,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/typora_manage/core/management/commands/clean_images.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="164">
-              <caret line="41" column="19" lean-forward="true" selection-start-line="36" selection-start-column="4" selection-end-line="41" selection-end-column="19" />
+            <state relative-caret-position="266">
+              <caret line="20" column="13" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="13" />
               <folding>
                 <element signature="e#57#66#0" expanded="true" />
               </folding>
@@ -49,8 +53,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/typora_manage/core/management/commands/clean_pycfiles.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="689">
-              <caret line="37" column="28" lean-forward="true" selection-start-line="33" selection-start-column="8" selection-end-line="37" selection-end-column="28" />
+            <state relative-caret-position="627">
+              <caret line="37" column="28" selection-start-line="33" selection-start-column="8" selection-end-line="37" selection-end-column="28" />
               <folding>
                 <element signature="e#57#66#0" expanded="true" />
               </folding>
@@ -58,11 +62,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/typora_manage/core/management/commands/generate_toc.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="658">
-              <caret line="57" column="99" lean-forward="true" selection-start-line="57" selection-start-column="99" selection-end-line="57" selection-end-column="99" />
+            <state relative-caret-position="969">
+              <caret line="57" column="99" selection-start-line="57" selection-start-column="99" selection-end-line="57" selection-end-column="99" />
               <folding>
                 <element signature="e#57#66#0" expanded="true" />
               </folding>
@@ -182,10 +186,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="410" />
-    <option name="y" value="56" />
+    <option name="y" value="23" />
     <option name="width" value="1680" />
-    <option name="height" value="1001" />
+    <option name="height" value="1002" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -195,7 +198,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -233,6 +235,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -303,16 +306,20 @@
       <workItem from="1546411567599" duration="5211000" />
       <workItem from="1546419988601" duration="2384000" />
       <workItem from="1546518299501" duration="8999000" />
+      <workItem from="1547165273957" duration="17000" />
+      <workItem from="1547171204039" duration="18000" />
+      <workItem from="1547171323087" duration="12000" />
+      <workItem from="1547618504592" duration="2000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43045000" />
+    <option name="totallyTimeSpent" value="43094000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="410" y="56" width="1680" height="1001" extended-state="0" />
+    <frame x="0" y="23" width="1680" height="1002" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2591687" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27139366" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -417,6 +424,43 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/typora_manage/core/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="3" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/typora_manage/core/management/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="40" column="72" selection-start-line="40" selection-start-column="63" selection-end-line="40" selection-end-column="72" />
+          <folding>
+            <element signature="e#57#66#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/typora_manage/core/management/commands/clean_pycfiles.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="627">
+          <caret line="37" column="28" selection-start-line="33" selection-start-column="8" selection-end-line="37" selection-end-column="28" />
+          <folding>
+            <element signature="e#57#66#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/typora_manage/core/management/commands/generate_toc.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="969">
+          <caret line="57" column="99" selection-start-line="57" selection-start-column="99" selection-end-line="57" selection-end-column="99" />
+          <folding>
+            <element signature="e#57#66#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -461,47 +505,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/typora_manage/core/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="3" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/typora_manage/core/management/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="40" column="72" selection-start-line="40" selection-start-column="63" selection-end-line="40" selection-end-column="72" />
-          <folding>
-            <element signature="e#57#66#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/typora_manage/core/management/commands/clean_pycfiles.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="689">
-          <caret line="37" column="28" lean-forward="true" selection-start-line="33" selection-start-column="8" selection-end-line="37" selection-end-column="28" />
-          <folding>
-            <element signature="e#57#66#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/typora_manage/core/management/commands/clean_images.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="41" column="19" lean-forward="true" selection-start-line="36" selection-start-column="4" selection-end-line="41" selection-end-column="19" />
-          <folding>
-            <element signature="e#57#66#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/typora_manage/core/management/commands/generate_toc.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="658">
-          <caret line="57" column="99" lean-forward="true" selection-start-line="57" selection-start-column="99" selection-end-line="57" selection-end-column="99" />
+        <state relative-caret-position="266">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="13" />
           <folding>
             <element signature="e#57#66#0" expanded="true" />
           </folding>
