@@ -9,4 +9,4 @@ from arcsoft.core.manager import RLSBManager
 
 if __name__ == '__main__':
     manager = RLSBManager()
-    manager.do_asf_detectfaces('images/shushu_first.jpeg')
+    manager.do_asf_detectfaces('images/limanman_second.jpeg')
