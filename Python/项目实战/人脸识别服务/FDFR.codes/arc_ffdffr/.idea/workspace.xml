@@ -10,35 +10,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/arcsoft/util/loader/image_loader.py">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/arcsoft/core/manager.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="10" column="36" lean-forward="true" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
-              <folding>
-                <element signature="e#57#67#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/arcsoft/core/structure.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="179">
-              <caret line="21" column="15" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/arcsoft/util/asf_detectfaces.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="35" column="49" selection-start-line="35" selection-start-column="49" selection-end-line="35" selection-end-column="49" />
-              <folding>
-                <element signature="e#57#63#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="747">
+              <caret line="311" selection-start-line="311" selection-end-line="311" />
             </state>
           </provider>
         </entry>
@@ -47,46 +23,45 @@
         <entry file="file://$PROJECT_DIR$/ffd_img.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="228">
-              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/arcsoft/core/manager.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="508">
-              <caret line="108" column="94" selection-start-line="108" selection-start-column="94" selection-end-line="108" selection-end-column="94" />
-              <folding>
-                <element signature="e#57#66#0" expanded="true" />
-              </folding>
+              <caret line="21" selection-start-line="21" selection-end-line="21" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/arcsoft/util/asvl_color_format.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="22" column="21" selection-start-line="22" selection-end-line="22" selection-end-column="21" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/images/limanman_first.jpeg">
+          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/arcsoft/util/__init__.py">
+        <entry file="file://$PROJECT_DIR$/images/limanman_second.jpeg">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/images/luchuan_first.jpg">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/images/shushu_first.jpeg">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/arcsoft/pysdk/fr/afr_uninitial_engine.py">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret selection-end-line="4" />
+              <caret selection-end-line="15" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/arcsoft/util/asf_getversion.py">
+        <entry file="file://$PROJECT_DIR$/arcsoft/pysdk/fr/afr_extract_frfeature.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="49" />
+            <state relative-caret-position="171">
+              <caret line="11" column="26" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="26" />
               <folding>
                 <element signature="e#57#77#0" expanded="true" />
               </folding>
@@ -95,10 +70,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/arcsoft/util/asf_initengine.py">
+        <entry file="file://$PROJECT_DIR$/arcsoft/pysdk/fr/afr_get_version.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="12" column="93" selection-start-line="12" selection-start-column="76" selection-end-line="12" selection-end-column="93" />
+            <state>
+              <caret selection-end-line="15" selection-end-column="18" />
               <folding>
                 <element signature="e#57#77#0" expanded="true" />
               </folding>
@@ -107,8 +82,12 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/arcsoft/util/asf_recognitionfaces.py">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/arcsoft/pysdk/fr/afr_initial_engine.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -122,17 +101,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>c_ubyte_p</find>
-      <find>bUseBGRToEngine</find>
-      <find>UseYUVFile</find>
-      <find>POINTER</find>
-      <find>uname</find>
-      <find>ASVLOFF</find>
-      <find>AFD_FSDK_Version</find>
-      <find>AFD_FSDK_OPF_0_ONLY</find>
-      <find>AFD_FSDK_OPF_90_ONLY</find>
-      <find>AFD_FSDK_OPF_270_ONLY</find>
-      <find>byteArrayFeature</find>
       <find>CLibrary</find>
       <find>FRFaceModel</find>
       <find>USING_FLOAT</find>
@@ -140,12 +108,29 @@
       <find>AFD_FSDK_FACERES</find>
       <find>AFD_FSDK_StillImageFaceDetection</find>
       <find>ASVLOFFSCREEN</find>
-      <find>AFD_FSDK_OPF_0_HIGHER_EXT</find>
       <find>pFRWorkMem</find>
       <find>bUseYUVFile</find>
       <find>c_void_p</find>
       <find>u'</find>
       <find>0x201</find>
+      <find>image</find>
+      <find>settings</find>
+      <find>86022</find>
+      <find>ASFSingleFaceFeature</find>
+      <find>asf_detectfaces</find>
+      <find>faceOrient</find>
+      <find>_get_sdk_ext</find>
+      <find>I420</find>
+      <find>ASVL_PAF_YUYV</find>
+      <find>ASVL_PAF_RGB24_B8G8R8</find>
+      <find>AFD_FSDK_OPF_0_HIGHER_EXT</find>
+      <find>do_print_info</find>
+      <find>func_uninitial_engine</find>
+      <find>AFD</find>
+      <find>self.handle</find>
+      <find>do_get_version</find>
+      <find>self.__class</find>
+      <find>if ret == 0:</find>
     </findStrings>
     <replaceStrings>
       <replace>AFRFaceModel</replace>
@@ -154,48 +139,15 @@
       <replace>ASVLOFFScreen</replace>
       <replace>libc</replace>
       <replace>'</replace>
+      <replace>asf_face_feature_extract</replace>
+      <replace>AFR</replace>
+      <replace>self.fd_handle</replace>
+      <replace>if ret == exception.MOK:</replace>
     </replaceStrings>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/arcsoft/core/AFD_FSDKLibrary.py" />
-        <option value="$PROJECT_DIR$/arcsoft/model/face.py" />
-        <option value="$PROJECT_DIR$/arcsoft/model/base.py" />
-        <option value="$PROJECT_DIR$/arcsoft/model/__init__.py" />
-        <option value="$PROJECT_DIR$/arcsoft/core/fd_loader.py" />
-        <option value="$PROJECT_DIR$/arcsoft/core/fr_loader.py" />
-        <option value="$PROJECT_DIR$/arcsoft/core/ffr_loader.py" />
-        <option value="$PROJECT_DIR$/arcsoft/core/ffd_loader.py" />
-        <option value="$PROJECT_DIR$/arcsoft/CLibrary.py" />
-        <option value="$PROJECT_DIR$/arcsoft/core/affd_loader.py" />
-        <option value="$PROJECT_DIR$/arcsoft/core/libc_loader.py" />
-        <option value="$PROJECT_DIR$/arcsoft/core/affr_loader.py" />
-        <option value="$PROJECT_DIR$/arcsoft/model/buffer.py" />
-        <option value="$PROJECT_DIR$/arcsoft/integrate/__init__.py" />
-        <option value="$PROJECT_DIR$/arcsoft/integrate/img_loader.py" />
-        <option value="$PROJECT_DIR$/arcsoft/util/asvl_colors.py" />
-        <option value="$PROJECT_DIR$/arcsoft/core/affd.py" />
-        <option value="$PROJECT_DIR$/ffr_img.py" />
-        <option value="$PROJECT_DIR$/arcsoft/__init__.py" />
-        <option value="$PROJECT_DIR$/arcsoft/data/__init__.py" />
-        <option value="$PROJECT_DIR$/arcsoft/util/__init__.py" />
-        <option value="$PROJECT_DIR$/arcsoft/util/loader/engine_loader.py" />
-        <option value="$PROJECT_DIR$/arcsoft/util/loader/libc_loader.py" />
-        <option value="$PROJECT_DIR$/arcsoft/util/active.py" />
-        <option value="$PROJECT_DIR$/arcsoft/core/__init__.py" />
-        <option value="$PROJECT_DIR$/arcsoft/util/logger.py" />
-        <option value="$PROJECT_DIR$/arcsoft/util/initialize.py" />
-        <option value="$PROJECT_DIR$/arcsoft/settings.py" />
-        <option value="$PROJECT_DIR$/arcsoft/structure/single_face_info.py" />
-        <option value="$PROJECT_DIR$/arcsoft/util/face_recognition.py" />
-        <option value="$PROJECT_DIR$/arcsoft/util/face_detection.py" />
-        <option value="$PROJECT_DIR$/arcsoft/structure/face_image.py" />
-        <option value="$PROJECT_DIR$/arcsoft/util/detection.py" />
-        <option value="$PROJECT_DIR$/arcsoft/structure/arc_version.py" />
-        <option value="$PROJECT_DIR$/arcsoft/structure/face_feature.py" />
-        <option value="$PROJECT_DIR$/arcsoft/structure/multiple_face.py" />
-        <option value="$PROJECT_DIR$/arcsoft/structure/single_face.py" />
         <option value="$PROJECT_DIR$/arcsoft/structure/asf_version.py" />
         <option value="$PROJECT_DIR$/arcsoft/structure/asf_single_face_info.py" />
         <option value="$PROJECT_DIR$/arcsoft/structure/asf_multi_face_info.py" />
@@ -204,19 +156,57 @@
         <option value="$PROJECT_DIR$/arcsoft/util/asf_initengine.py" />
         <option value="$PROJECT_DIR$/arcsoft/util/loader/asf_getversion.py" />
         <option value="$PROJECT_DIR$/arcsoft/util/asf_getversion.py" />
-        <option value="$PROJECT_DIR$/arcsoft/util/loader/image_loader.py" />
-        <option value="$PROJECT_DIR$/arcsoft/core/structure.py" />
-        <option value="$PROJECT_DIR$/arcsoft/util/asvl_color_format.py" />
-        <option value="$PROJECT_DIR$/ffd_img.py" />
         <option value="$PROJECT_DIR$/arcsoft/util/asf_detectfaces.py" />
+        <option value="$PROJECT_DIR$/arcsoft/util/asf_facefeatureextract.py" />
+        <option value="$PROJECT_DIR$/arcsoft/util/asf_get_version.py" />
+        <option value="$PROJECT_DIR$/arcsoft/util/asf_init_engine.py" />
+        <option value="$PROJECT_DIR$/arcsoft/util/loader/__init__.py" />
+        <option value="$PROJECT_DIR$/arcsoft/util/loader/image_loader.py" />
+        <option value="$PROJECT_DIR$/arcsoft/util/asf_uninit_engine.py" />
+        <option value="$PROJECT_DIR$/arcsoft/util/asf_face_feature_extract.py" />
+        <option value="$PROJECT_DIR$/arcsoft/util/asf_detect_faces.py" />
+        <option value="$PROJECT_DIR$/arcsoft/core/structure.py" />
+        <option value="$PROJECT_DIR$/arcsoft/util/asf_process.py" />
+        <option value="$PROJECT_DIR$/arcsoft/util/asf_userinfo_process.py" />
+        <option value="$PROJECT_DIR$/arcsoft/util/asvl_color_format.py" />
+        <option value="$PROJECT_DIR$/arcsoft/util/arcsoft_face_sdk.py" />
+        <option value="$PROJECT_DIR$/arcsoft/util/asf_sdk_constant.py" />
+        <option value="$PROJECT_DIR$/arcsoft/data/__init__.py" />
+        <option value="$PROJECT_DIR$/arcsoft/const.py" />
+        <option value="$PROJECT_DIR$/arcsoft/const/fd/__init__.py" />
+        <option value="$PROJECT_DIR$/arcsoft/pysdk/fd/__init__.py" />
+        <option value="$PROJECT_DIR$/arcsoft/pysdk/loader/engine_loader.py" />
+        <option value="$PROJECT_DIR$/arcsoft/pysdk/fd/afd_initial_engine.py" />
+        <option value="$PROJECT_DIR$/arcsoft/pysdk/loader/libc_loader.py" />
+        <option value="$PROJECT_DIR$/arcsoft/pysdk/fd/afd_get_version.py" />
+        <option value="$PROJECT_DIR$/arcsoft/const/__init__.py" />
+        <option value="$PROJECT_DIR$/arcsoft/pysdk/fd/afd_still_image_detection.py" />
+        <option value="$PROJECT_DIR$/arcsoft/pysdk/loader/image_loader.py" />
+        <option value="$PROJECT_DIR$/arcsoft/model/fd/__init__.py" />
+        <option value="$PROJECT_DIR$/arcsoft/core/decorator.py" />
+        <option value="$PROJECT_DIR$/arcsoft/pysdk/fd/afd_uninitial_engine.py" />
+        <option value="$PROJECT_DIR$/arcsoft/const/fr/__init__.py" />
+        <option value="$PROJECT_DIR$/arcsoft/pysdk/fr/afr_get_version.py" />
+        <option value="$PROJECT_DIR$/arcsoft/pysdk/fr/afr_uninitial_engine.py" />
+        <option value="$PROJECT_DIR$/arcsoft/__init__.py" />
+        <option value="$PROJECT_DIR$/arcsoft/pysdk/fr/afr_initial_engine.py" />
+        <option value="$PROJECT_DIR$/arcsoft/settings.py" />
+        <option value="$PROJECT_DIR$/arcsoft/pysdk/fr/afr_extract_frfeature.py" />
+        <option value="$PROJECT_DIR$/arcsoft/model/__init__.py" />
+        <option value="$PROJECT_DIR$/arcsoft/core/exception.py" />
+        <option value="$PROJECT_DIR$/arcsoft/model/fr/__init__.py" />
+        <option value="$PROJECT_DIR$/arcsoft/utils/__init__.py" />
+        <option value="$PROJECT_DIR$/arcsoft/pysdk/fr/arf_facepair_matching.py" />
+        <option value="$PROJECT_DIR$/ffd_img.py" />
         <option value="$PROJECT_DIR$/arcsoft/core/manager.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="363" />
+    <option name="x" value="69" />
+    <option name="y" value="32" />
     <option name="width" value="1680" />
-    <option name="height" value="958" />
+    <option name="height" value="1002" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -231,81 +221,6 @@
               <item name="arc_ffdffr" type="b2602c69:ProjectViewProjectNode" />
               <item name="arc_ffdffr" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="arc_ffdffr" type="b2602c69:ProjectViewProjectNode" />
-              <item name="arc_ffdffr" type="462c0819:PsiDirectoryNode" />
-              <item name="arcsoft" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="arc_ffdffr" type="b2602c69:ProjectViewProjectNode" />
-              <item name="arc_ffdffr" type="462c0819:PsiDirectoryNode" />
-              <item name="arcsoft" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="arc_ffdffr" type="b2602c69:ProjectViewProjectNode" />
-              <item name="arc_ffdffr" type="462c0819:PsiDirectoryNode" />
-              <item name="arcsoft" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="manager.py" type="8704e2dd:PyFileNode" />
-            </path>
-            <path>
-              <item name="arc_ffdffr" type="b2602c69:ProjectViewProjectNode" />
-              <item name="arc_ffdffr" type="462c0819:PsiDirectoryNode" />
-              <item name="arcsoft" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="structure.py" type="8704e2dd:PyFileNode" />
-            </path>
-            <path>
-              <item name="arc_ffdffr" type="b2602c69:ProjectViewProjectNode" />
-              <item name="arc_ffdffr" type="462c0819:PsiDirectoryNode" />
-              <item name="arcsoft" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="arc_ffdffr" type="b2602c69:ProjectViewProjectNode" />
-              <item name="arc_ffdffr" type="462c0819:PsiDirectoryNode" />
-              <item name="arcsoft" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-              <item name="sdk" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="arc_ffdffr" type="b2602c69:ProjectViewProjectNode" />
-              <item name="arc_ffdffr" type="462c0819:PsiDirectoryNode" />
-              <item name="arcsoft" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-              <item name="sdk" type="462c0819:PsiDirectoryNode" />
-              <item name="linux" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="arc_ffdffr" type="b2602c69:ProjectViewProjectNode" />
-              <item name="arc_ffdffr" type="462c0819:PsiDirectoryNode" />
-              <item name="arcsoft" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-              <item name="sdk" type="462c0819:PsiDirectoryNode" />
-              <item name="linux" type="462c0819:PsiDirectoryNode" />
-              <item name="32" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="arc_ffdffr" type="b2602c69:ProjectViewProjectNode" />
-              <item name="arc_ffdffr" type="462c0819:PsiDirectoryNode" />
-              <item name="arcsoft" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-              <item name="sdk" type="462c0819:PsiDirectoryNode" />
-              <item name="linux" type="462c0819:PsiDirectoryNode" />
-              <item name="64" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="arc_ffdffr" type="b2602c69:ProjectViewProjectNode" />
-              <item name="arc_ffdffr" type="462c0819:PsiDirectoryNode" />
-              <item name="arcsoft" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="arc_ffdffr" type="b2602c69:ProjectViewProjectNode" />
-              <item name="arc_ffdffr" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -319,18 +234,19 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/arcsoft/utils" />
+      <recent name="$PROJECT_DIR$/arcsoft/pysdk/loader" />
+      <recent name="$PROJECT_DIR$/arcsoft/pysdk/fd" />
+      <recent name="$PROJECT_DIR$/arcsoft/pysdk" />
+      <recent name="$PROJECT_DIR$/arcsoft/const" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/images" />
+      <recent name="$PROJECT_DIR$/arcsoft/data/sdk/linux/64" />
+      <recent name="$PROJECT_DIR$/arcsoft/include" />
       <recent name="$PROJECT_DIR$/arcsoft/util" />
-      <recent name="$PROJECT_DIR$/arcsoft/data/sdk/linux/64" />
       <recent name="$PROJECT_DIR$/arcsoft/core" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/arcsoft/structure" />
-      <recent name="$PROJECT_DIR$/arcsoft/data/sdk/wins/32" />
-      <recent name="$PROJECT_DIR$/arcsoft/data/sdk/wins/64" />
-      <recent name="$PROJECT_DIR$/arcsoft/data/sdk/linux/32" />
-      <recent name="$PROJECT_DIR$/arcsoft/data/sdk/linux/64" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -357,18 +273,19 @@
       <updated>1548044538054</updated>
       <workItem from="1548044540899" duration="648000" />
       <workItem from="1548221989169" duration="5562000" />
-      <workItem from="1548292564098" duration="35173000" />
+      <workItem from="1548292564098" duration="61623000" />
+      <workItem from="1548415411602" duration="23709000" />
+      <workItem from="1548479415216" duration="8000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41383000" />
+    <option name="totallyTimeSpent" value="91550000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="363" width="1680" height="958" extended-state="0" />
-    <editor active="true" />
+    <frame x="69" y="32" width="1680" height="1002" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22188264" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26405868" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -395,352 +312,289 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/arcsoft/data/sdk.py" />
-    <entry file="file://$PROJECT_DIR$/arcsoft/lib/win32/README.md" />
-    <entry file="file:///System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/platform.py">
+    <entry file="file://$PROJECT_DIR$/arcsoft/utils/loader/engine_loader.py" />
+    <entry file="file://$USER_HOME$/Library/Caches/PyCharm2018.3/python_stubs/-925335762/numpy/core/_multiarray_umath.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22135">
-          <caret line="1165" column="4" selection-start-line="1165" selection-start-column="4" selection-end-line="1165" selection-end-column="4" />
+        <state relative-caret-position="105">
+          <caret line="751" column="4" selection-start-line="751" selection-start-column="4" selection-end-line="751" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/arcsoft/data/sdk/linux/64/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/arcsoft/data/sdk/linux/32/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/arcsoft/data/sdk/wins/64/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/arcsoft/data/sdk/wins/32/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/arcsoft/model/face.py">
+    <entry file="file://$USER_HOME$/Library/Caches/PyCharm2018.3/python_stubs/-925335762/cv2/cv2/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        <state relative-caret-position="294">
+          <caret line="7283" column="25" selection-start-line="7283" selection-start-column="22" selection-end-line="7283" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/arcsoft/model/base.py">
+    <entry file="file:///Library/Python/2.7/site-packages/PIL/Image.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="3" selection-end-column="27" />
+        <state relative-caret-position="124">
+          <caret line="1027" column="8" selection-start-line="1027" selection-start-column="8" selection-end-line="1027" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/arcsoft/model/buffer.py">
+    <entry file="file://$PROJECT_DIR$/arcsoft/utils/asf_init_engine.py" />
+    <entry file="file://$PROJECT_DIR$/arcsoft/utils/asf_uninit_engine.py" />
+    <entry file="file://$PROJECT_DIR$/arcsoft/utils/loader/image_loader.py" />
+    <entry file="file://$PROJECT_DIR$/arcsoft/include/asvloffscreen.h" />
+    <entry file="file://$PROJECT_DIR$/arcsoft/utils/asf_face_feature_extract.py" />
+    <entry file="file://$PROJECT_DIR$/arcsoft/utils/asf_detect_faces.py" />
+    <entry file="file://$PROJECT_DIR$/arcsoft/utils/asf_sdk_constant.py" />
+    <entry file="file://$PROJECT_DIR$/arcsoft/utils/asf_activation.py" />
+    <entry file="file://$PROJECT_DIR$/arcsoft/utils/asf_userinfo_process.py" />
+    <entry file="file://$PROJECT_DIR$/arcsoft/data/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/arcsoft/model/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="3" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/arcsoft/integrate/imageJudge.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="6" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/arcsoft/integrate/lib_path.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/arcsoft/util/img_loader.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="100" selection-start-line="100" selection-end-line="100" />
+        <state relative-caret-position="1330">
+          <caret line="70" lean-forward="true" selection-start-line="70" selection-end-line="70" />
           <folding>
             <element signature="e#57#66#0" expanded="true" />
-            <element signature="e#148#1057#0" />
-            <element signature="e#1111#1823#0" />
-            <element signature="e#1922#2594#0" />
-            <element signature="e#2631#3173#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/arcsoft/CLibrary.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ffd_video.py">
+    <entry file="file://$PROJECT_DIR$/arcsoft/const.py" />
+    <entry file="file://$PROJECT_DIR$/arcsoft/utils/asvl_color_format.py" />
+    <entry file="file://$PROJECT_DIR$/arcsoft/pysdk/fd/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="91" column="20" lean-forward="true" selection-start-line="91" selection-start-column="20" selection-end-line="91" selection-end-column="20" />
+        <state relative-caret-position="95">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/arcsoft/util/asvl_colors.py">
+    <entry file="file://$PROJECT_DIR$/arcsoft/pysdk/loader/engine_loader.py" />
+    <entry file="file://$PROJECT_DIR$/arcsoft/pysdk/loader/libc_loader.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+        <state relative-caret-position="228">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/arcsoft/core/libc.py">
+    <entry file="file://$PROJECT_DIR$/arcsoft/utils/asf_get_version.py" />
+    <entry file="file://$PROJECT_DIR$/arcsoft/pysdk/loader/image_loader.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        <state relative-caret-position="728">
+          <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
           <folding>
-            <element signature="e#57#72#0" expanded="true" />
+            <element signature="e#57#66#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/arcsoft/core/affd.py">
+    <entry file="file://$PROJECT_DIR$/arcsoft/core/structure.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="67" column="43" selection-start-line="67" selection-start-column="43" selection-end-line="67" selection-end-column="43" />
+        <state relative-caret-position="703">
+          <caret line="37" column="5" lean-forward="true" selection-start-line="33" selection-start-column="4" selection-end-line="37" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/arcsoft/pysdk/fd/afd_still_image_detection.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
           <folding>
             <element signature="e#57#77#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/arcsoft/core/affr.py">
+    <entry file="file://$PROJECT_DIR$/arcsoft/pysdk/fd/afd_get_version.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="81" column="16" selection-start-line="81" selection-start-column="16" selection-end-line="81" selection-end-column="16" />
+        <state relative-caret-position="304">
+          <caret line="16" selection-end-line="16" />
           <folding>
-            <element signature="e#56#76#0" expanded="true" />
+            <element signature="e#57#77#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/arcsoft/pysdk/fd/afd_initial_engine.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="14" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/arcsoft/pysdk/fd/afd_uninitial_engine.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/arcsoft/const/fd/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="589">
+          <caret line="31" selection-start-line="31" selection-end-line="35" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/arcsoft/const/fr/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/arcsoft/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="304">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/arcsoft/data/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="969">
-          <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
-          <folding>
-            <element signature="e#57#66#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/arcsoft/util/loader/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ffr_img.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="23" column="17" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/arcsoft/util/logger.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="3" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/arcsoft/util/loader/engine_loader.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="3" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/arcsoft/util/loader/libc_loader.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="76" selection-start-line="14" selection-start-column="76" selection-end-line="14" selection-end-column="76" />
-          <folding>
-            <element signature="e#57#77#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/limanman_second.jpeg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/limanman_first.jpeg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/arcsoft/structure/face_image.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/arcsoft/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="14" column="67" lean-forward="true" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/arcsoft/structure/asf_version.py">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/arcsoft/core/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/arcsoft/structure/asf_single_face_info.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="e#57#77#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/arcsoft/structure/asf_multi_face_info.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="e#57#77#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/arcsoft/structure/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/arcsoft/structure/face_feature.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" selection-start-line="10" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/arcsoft/structure/face_rect.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/arcsoft/util/asf_activation.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="13" />
-          <folding>
-            <element signature="e#57#77#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/arcsoft/util/loader/image_loader.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="36" lean-forward="true" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
-          <folding>
-            <element signature="e#57#67#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/arcsoft/util/asf_initengine.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="93" selection-start-line="12" selection-start-column="76" selection-end-line="12" selection-end-column="93" />
-          <folding>
-            <element signature="e#57#77#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/arcsoft/util/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret selection-end-line="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/arcsoft/util/asf_recognitionfaces.py">
+    <entry file="file://$PROJECT_DIR$/arcsoft/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="e#57#71#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/arcsoft/pysdk/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/arcsoft/util/asf_getversion.py">
+    <entry file="file://$PROJECT_DIR$/arcsoft/model/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="49" />
+        <state relative-caret-position="338">
+          <caret line="18" column="28" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/arcsoft/model/fd/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" selection-start-line="18" selection-end-line="28" />
           <folding>
             <element signature="e#57#77#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/arcsoft/util/asvl_color_format.py">
+    <entry file="file://$PROJECT_DIR$/arcsoft/model/fr/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="22" column="21" selection-start-line="22" selection-end-line="22" selection-end-column="21" />
+        <state relative-caret-position="526">
+          <caret line="61" selection-start-line="61" selection-end-line="61" />
+          <folding>
+            <element signature="e#57#77#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/arcsoft/const/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/arcsoft/utils/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/arcsoft/utils/logger.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/arcsoft/pysdk/fr/arf_facepair_matching.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="26" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="26" />
+          <folding>
+            <element signature="e#57#77#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/arcsoft/core/decorator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+          <folding>
+            <element signature="e#57#84#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/arcsoft/core/exception.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/arcsoft/core/manager.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="747">
+          <caret line="311" selection-start-line="311" selection-end-line="311" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ffd_img.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/arcsoft/core/structure.py">
+    <entry file="file://$PROJECT_DIR$/images/limanman_first.jpeg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/limanman_second.jpeg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/luchuan_first.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/shushu_first.jpeg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/arcsoft/pysdk/fr/afr_uninitial_engine.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="21" column="15" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="15" />
+        <state>
+          <caret selection-end-line="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/arcsoft/util/asf_detectfaces.py">
+    <entry file="file://$PROJECT_DIR$/arcsoft/pysdk/fr/afr_extract_frfeature.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="35" column="49" selection-start-line="35" selection-start-column="49" selection-end-line="35" selection-end-column="49" />
+        <state relative-caret-position="171">
+          <caret line="11" column="26" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="26" />
           <folding>
-            <element signature="e#57#63#0" expanded="true" />
+            <element signature="e#57#77#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/arcsoft/core/manager.py">
+    <entry file="file://$PROJECT_DIR$/arcsoft/pysdk/fr/afr_get_version.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="508">
-          <caret line="108" column="94" selection-start-line="108" selection-start-column="94" selection-end-line="108" selection-end-column="94" />
+        <state>
+          <caret selection-end-line="15" selection-end-column="18" />
           <folding>
-            <element signature="e#57#66#0" expanded="true" />
+            <element signature="e#57#77#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/arcsoft/pysdk/fr/afr_initial_engine.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>

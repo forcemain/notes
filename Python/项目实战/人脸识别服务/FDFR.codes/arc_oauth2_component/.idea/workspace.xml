@@ -1,0 +1,747 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="aeb79f67-8c1a-47d6-abbe-c0022c28f0f1" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/entrance/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="424">
+              <caret line="37" column="46" selection-start-line="37" selection-start-column="46" selection-end-line="37" selection-end-column="46" />
+              <folding>
+                <element signature="e#701#733#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file:///Library/Python/2.7/site-packages/oauth2_provider/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="14" column="44" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
+              <folding>
+                <element signature="e#0#38#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/oauth2_app/admin/user.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="646">
+              <caret line="34" selection-start-line="34" selection-end-line="34" />
+              <folding>
+                <element signature="e#57#89#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/oauth2_app/models/user.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="437">
+              <caret line="23" selection-start-line="23" selection-end-line="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file:///Library/Python/2.7/site-packages/django/contrib/auth/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="5377">
+              <caret line="298" column="6" selection-start-line="298" selection-start-column="6" selection-end-line="298" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/utils/rest/response.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file:///Library/Python/2.7/site-packages/oauth2_provider/views/base.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="817">
+              <caret line="61" column="6" selection-start-line="61" selection-start-column="6" selection-end-line="61" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file:///Library/Python/2.7/site-packages/oauth2_provider/views/introspect.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-157">
+              <caret line="26" column="26" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file:///Library/Python/2.7/site-packages/oauth2_provider/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="5757">
+              <caret line="320" column="31" selection-start-line="320" selection-start-column="31" selection-end-line="320" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/oauth2_app/templates/__init__.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>cas_app.User</find>
+      <find>self.cas_</find>
+      <find>self.server</find>
+      <find>get_response</find>
+      <find>CAS_REQUEST_TOKEN_TIMEOUT</find>
+      <find>max_age</find>
+      <find>exist</find>
+      <find>ident</find>
+      <find>key_length</find>
+      <find>print</find>
+      <find>ACCESS_KEY_LENGTH</find>
+      <find>extra</find>
+      <find>x-services-public-key</find>
+      <find>PUBLIC_KEY_HEADER</find>
+      <find>auth</find>
+      <find>login</find>
+      <find>CommonMiddleware</find>
+      <find>handle_authenticated_user</find>
+      <find>token</find>
+      <find>Quer</find>
+      <find>request</find>
+      <find>csrf</find>
+      <find>cas</find>
+    </findStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/utils/core/auth/__init__.py" />
+        <option value="$PROJECT_DIR$/utils/core/auth/sso/__init__.py" />
+        <option value="$PROJECT_DIR$/utils/core/auth/sso/models.py" />
+        <option value="$PROJECT_DIR$/cas_rest_app/apps.py" />
+        <option value="$PROJECT_DIR$/cas_app/models/user.py" />
+        <option value="$PROJECT_DIR$/cas_app/restapi/v1/views/identify.py" />
+        <option value="$PROJECT_DIR$/cas_app/restapi/v1/urls.py" />
+        <option value="$PROJECT_DIR$/cas_app/views/__init__.py" />
+        <option value="$PROJECT_DIR$/cas_rest_app/urls.py" />
+        <option value="$PROJECT_DIR$/cas_rest_app/__init__.py" />
+        <option value="$PROJECT_DIR$/cas_app/urls.py" />
+        <option value="$PROJECT_DIR$/cas_app/signals.py" />
+        <option value="$PROJECT_DIR$/cas_app/admin/auth.py" />
+        <option value="$PROJECT_DIR$/cas_app/models/auth.py" />
+        <option value="$PROJECT_DIR$/utils/generator.py" />
+        <option value="$PROJECT_DIR$/utils/core/sync.py" />
+        <option value="$PROJECT_DIR$/utils/core/overrite/__init__.py" />
+        <option value="$PROJECT_DIR$/utils/core/overrite/webservices/__init__.py" />
+        <option value="$PROJECT_DIR$/cas_app/tests/__init__.py" />
+        <option value="$PROJECT_DIR$/utils/core/overrite/webservices/sync.py" />
+        <option value="$PROJECT_DIR$/cas_app/tests/test_auth.py" />
+        <option value="$PROJECT_DIR$/utils/core/client.py" />
+        <option value="$PROJECT_DIR$/cas_app/templates/registration/login.html" />
+        <option value="$PROJECT_DIR$/cas_app/views/auth.py" />
+        <option value="$PROJECT_DIR$/oauth2_app/urls.py" />
+        <option value="$PROJECT_DIR$/oauth2_app/apps.py" />
+        <option value="$PROJECT_DIR$/oauth2_app/__init__.py" />
+        <option value="$PROJECT_DIR$/oauth2_app/restapi/v1/serializers/group.py" />
+        <option value="$PROJECT_DIR$/oauth2_app/restapi/v1/urls.py" />
+        <option value="$PROJECT_DIR$/oauth2_app/restapi/v1/serializers/user.py" />
+        <option value="$PROJECT_DIR$/utils/rest/view/mixins.py" />
+        <option value="$PROJECT_DIR$/oauth2_app/restapi/v1/views/group.py" />
+        <option value="$PROJECT_DIR$/oauth2_app/restapi/v1/views/user.py" />
+        <option value="$PROJECT_DIR$/entrance/urls.py" />
+        <option value="$PROJECT_DIR$/oauth2_app/models/user.py" />
+        <option value="$PROJECT_DIR$/oauth2_app/admin/user.py" />
+        <option value="$PROJECT_DIR$/entrance/settings.py" />
+        <option value="$PROJECT_DIR$/assets/__init__.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="84" />
+    <option name="y" value="23" />
+    <option name="width" value="1680" />
+    <option name="height" value="1002" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="arc_oauth2_component" type="b2602c69:ProjectViewProjectNode" />
+              <item name="arc_oauth2_component" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="arc_oauth2_component" type="b2602c69:ProjectViewProjectNode" />
+              <item name="arc_oauth2_component" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="arc_oauth2_component" type="b2602c69:ProjectViewProjectNode" />
+              <item name="arc_oauth2_component" type="462c0819:PsiDirectoryNode" />
+              <item name="entrance" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="arc_oauth2_component" type="b2602c69:ProjectViewProjectNode" />
+              <item name="arc_oauth2_component" type="462c0819:PsiDirectoryNode" />
+              <item name="oauth2_app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="arc_oauth2_component" type="b2602c69:ProjectViewProjectNode" />
+              <item name="arc_oauth2_component" type="462c0819:PsiDirectoryNode" />
+              <item name="oauth2_app" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="arc_oauth2_component" type="b2602c69:ProjectViewProjectNode" />
+              <item name="arc_oauth2_component" type="462c0819:PsiDirectoryNode" />
+              <item name="oauth2_app" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="arc_oauth2_component" type="b2602c69:ProjectViewProjectNode" />
+              <item name="arc_oauth2_component" type="462c0819:PsiDirectoryNode" />
+              <item name="oauth2_app" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="arc_oauth2_component" type="b2602c69:ProjectViewProjectNode" />
+              <item name="arc_oauth2_component" type="462c0819:PsiDirectoryNode" />
+              <item name="oauth2_app" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="arc_oauth2_component" type="b2602c69:ProjectViewProjectNode" />
+              <item name="arc_oauth2_component" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="arc_oauth2_component" type="b2602c69:ProjectViewProjectNode" />
+              <item name="arc_oauth2_component" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="arc_oauth2_component" type="b2602c69:ProjectViewProjectNode" />
+              <item name="arc_oauth2_component" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="arc_oauth2_component" type="b2602c69:ProjectViewProjectNode" />
+              <item name="arc_oauth2_component" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+              <item name="rest" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="arc_oauth2_component" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="arc_oauth2_component" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/utils/core/overrite/webservices" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/oauth2_app/templates" />
+      <recent name="$PROJECT_DIR$/oauth2_app/static" />
+      <recent name="$PROJECT_DIR$/static" />
+      <recent name="$PROJECT_DIR$/assets" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="cas_component" type="Python.DjangoServer" factoryName="Django server">
+      <module name="cas_component" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="aeb79f67-8c1a-47d6-abbe-c0022c28f0f1" name="Default Changelist" comment="" />
+      <created>1547523095959</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1547523095959</updated>
+      <workItem from="1547523098431" duration="29509000" />
+      <workItem from="1547561651417" duration="442000" />
+      <workItem from="1547603039252" duration="760000" />
+      <workItem from="1547608018303" duration="1069000" />
+      <workItem from="1547609462687" duration="75000" />
+      <workItem from="1547627446143" duration="36000" />
+      <workItem from="1547633843759" duration="93000" />
+      <workItem from="1547635460989" duration="634000" />
+      <workItem from="1547638688789" duration="28000" />
+      <workItem from="1547638732222" duration="60000" />
+      <workItem from="1547641188714" duration="734000" />
+      <workItem from="1547648773922" duration="11000" />
+      <workItem from="1547692288047" duration="521000" />
+      <workItem from="1547693428440" duration="1519000" />
+      <workItem from="1547695927266" duration="1180000" />
+      <workItem from="1547701550687" duration="654000" />
+      <workItem from="1547703988384" duration="409000" />
+      <workItem from="1547714311220" duration="1000" />
+      <workItem from="1547776451651" duration="255000" />
+      <workItem from="1547776868229" duration="13000" />
+      <workItem from="1547777905185" duration="22000" />
+      <workItem from="1547778213876" duration="15000" />
+      <workItem from="1548060289300" duration="19000" />
+      <workItem from="1548061294835" duration="2258000" />
+      <workItem from="1548064102318" duration="4000" />
+      <workItem from="1548064473819" duration="6000" />
+      <workItem from="1548064883419" duration="20000" />
+      <workItem from="1548064913750" duration="14000" />
+      <workItem from="1548065169418" duration="10000" />
+      <workItem from="1548125599696" duration="85000" />
+      <workItem from="1548125870486" duration="17000" />
+      <workItem from="1548479398379" duration="7000" />
+      <workItem from="1548479446044" duration="4122000" />
+      <workItem from="1548484482249" duration="8000" />
+      <workItem from="1548484646419" duration="14000" />
+      <workItem from="1548484913878" duration="115000" />
+      <workItem from="1548485041856" duration="195000" />
+      <workItem from="1548485260130" duration="27000" />
+      <workItem from="1548485325025" duration="24000" />
+      <workItem from="1548485374105" duration="83000" />
+      <workItem from="1548485560872" duration="16000" />
+      <workItem from="1548491514594" duration="492000" />
+      <workItem from="1548492050974" duration="91000" />
+      <workItem from="1548492165931" duration="33000" />
+      <workItem from="1548499744164" duration="4000" />
+      <workItem from="1548500181304" duration="131000" />
+      <workItem from="1548500423861" duration="42000" />
+      <workItem from="1548500500661" duration="556000" />
+      <workItem from="1548501298728" duration="32000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="46465000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1680" height="1002" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28422982" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info anchor="bottom" id="Python Console" order="12" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/utils/core/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/core/overrite/webservices/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/utils/core/overrite/__init__.py" />
+    <entry file="file:///Library/Python/2.7/site-packages/django/test/client.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="540" column="8" selection-start-line="540" selection-start-column="8" selection-end-line="540" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cas_rest_app/urls.py" />
+    <entry file="file:///Library/Python/2.7/site-packages/django/contrib/auth/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1976">
+          <caret line="117" column="23" selection-start-line="117" selection-start-column="19" selection-end-line="117" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oauth2_app/admin/auth.py" />
+    <entry file="file:///Library/Python/2.7/site-packages/django/http/response.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8018">
+          <caret line="443" column="33" selection-start-line="443" selection-start-column="33" selection-end-line="443" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oauth2_app/tests/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Python/2.7/site-packages/django/contrib/auth/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Python/2.7/site-packages/django/contrib/auth/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1083">
+          <caret line="88" column="39" selection-start-line="88" selection-start-column="19" selection-end-line="88" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/core/overrite/webservices/sync.py" />
+    <entry file="file://$PROJECT_DIR$/oauth2_app/views/auth.py" />
+    <entry file="file:///Library/Python/2.7/site-packages/webservices/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1387">
+          <caret line="75" column="6" selection-start-line="75" selection-start-column="6" selection-end-line="75" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oauth2_app/templates/registration/login.html" />
+    <entry file="file:///Library/Python/2.7/site-packages/django/http/request.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6669">
+          <caret line="374" column="8" selection-start-line="374" selection-start-column="8" selection-end-line="374" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oauth2_app/models/auth.py" />
+    <entry file="file://$PROJECT_DIR$/oauth2_app/tests/test_auth.py" />
+    <entry file="file://$PROJECT_DIR$/utils/core/client.py" />
+    <entry file="file://$PROJECT_DIR$/oauth2_app/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="e#57#89#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oauth2_app/signals.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="e#57#89#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oauth2_app/apps.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oauth2_app/admin/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding>
+            <element signature="e#57#86#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oauth2_app/restapi/v1/views/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="3" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oauth2_app/restapi/v1/serializers/group.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="e#57#103#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oauth2_app/restapi/v1/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+          <folding>
+            <element signature="e#57#105#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/entrance/wsgi.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/rest/view/mixins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="893">
+          <caret line="47" column="27" selection-start-line="47" selection-start-column="6" selection-end-line="47" selection-end-column="27" />
+          <folding>
+            <element signature="e#57#92#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oauth2_app/restapi/v1/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/entrance/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oauth2_app/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oauth2_app/restapi/v1/serializers/user.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="e#57#103#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oauth2_app/static/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/rest/view/base.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oauth2_app/restapi/v1/views/user.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="e#57#103#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oauth2_app/restapi/v1/views/group.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
+          <folding>
+            <element signature="e#57#101#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Python/2.7/site-packages/rest_framework/viewsets.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2698">
+          <caret line="149" column="40" selection-start-line="145" selection-start-column="19" selection-end-line="149" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/entrance/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3401">
+          <caret line="179" selection-start-line="179" selection-end-line="179" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/generator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="e#57#79#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oauth2_app/admin/user.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+          <folding>
+            <element signature="e#57#89#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oauth2_app/models/user.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Python/2.7/site-packages/django/contrib/auth/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5377">
+          <caret line="298" column="6" selection-start-line="298" selection-start-column="6" selection-end-line="298" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Python/2.7/site-packages/oauth2_provider/views/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="817">
+          <caret line="61" column="6" selection-start-line="61" selection-start-column="6" selection-end-line="61" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Python/2.7/site-packages/oauth2_provider/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5757">
+          <caret line="320" column="31" selection-start-line="320" selection-start-column="31" selection-end-line="320" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oauth2_app/templates/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/rest/response.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/entrance/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="424">
+          <caret line="37" column="46" selection-start-line="37" selection-start-column="46" selection-end-line="37" selection-end-column="46" />
+          <folding>
+            <element signature="e#701#733#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Python/2.7/site-packages/oauth2_provider/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="44" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Python/2.7/site-packages/oauth2_provider/views/introspect.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-157">
+          <caret line="26" column="26" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
