@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>用户登录</title>
+        <style type="text/css">
+            .error {
+                color: red;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="main">
+            {% if not request.user.is_authenticated %}
+            <div class="login-form">
+                <form action="" method="post">
+                    {% csrf_token %}
+                    <fiedset>
+                        <legend>
+                            {% if form.errors %}
+                                <p class="error">用户名或密码错误!</p>
+                            {% endif %}
+                        </legend>
+                        账号: <input type="text" name="username" value="" id="username" />
+                        密码: <input type="password" name="password" value="" id="password" />
+                        <input type="hidden" name="next" value="{{ next|escape }}" />
+                        <input type="submit" value="登录" />
+                        <a href="{% url 'cas_app:user-weixin-login' %}?next={{ next|escape }}">微信登录</a>
+                    </fiedset>
+                </form>
+            </div>
+            {% else %}
+                欢迎 {{ request.user.username }} 回来!
+                <a href="{% url 'cas_app:user-logout' %}">强制登出</a>
+            {% endif %}
+        </div>
+    </body>
+</html>
