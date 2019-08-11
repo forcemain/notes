@@ -502,7 +502,7 @@ class Client(object):
 if __name__ == '__main__':
     results = []
     runcost = [time.time()]
-    host, port, uri = 'itsc.netease.com', 80, '/ne_screen/jbscreen/lebo/screen/connect-totaltime/?from=2018-01-01&to=2018-12-31'
+    host, port, uri = '', 80, ''
     for _ in xrange(20):
         c = Client()
         results.append(c)
@@ -648,7 +648,7 @@ if __name__ == '__main__':
     results = []
     # 存储耗时
     runcost = [time.time()]
-    host, port, uri = 'itsc.netease.com', 80, '/ne_screen/jbscreen/lebo/screen/connect-totaltime/?from=2018-01-01&to=2018-12-31'
+    host, port, uri = '', 80, ''
     for _ in range(20):
         c = Client()
         results.append(c)
@@ -719,7 +719,7 @@ if __name__ == '__main__':
     results = []
     # 存储耗时
     runcost = [time.time()]
-    host, port, uri = 'itsc.netease.com', 80, '/ne_screen/jbscreen/lebo/screen/connect-totaltime/?from=2018-01-01&to=2018-12-31'
+    host, port, uri = '', 80, ''
     req_url = 'http://{0}:{1}{2}'.format(host, port, uri)
     # 创建20个任务
     for _ in range(20):
