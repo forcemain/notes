@@ -22,7 +22,7 @@ setup(
     packages=find_packages(where='.', exclude=(), include=('*',)),
     install_requires=[
         'Faker==1.0.1',
-        'Django==1.11.5',
+        'Django==1.11.23',
     ],
     include_package_data=True,
     license='BSD License',
